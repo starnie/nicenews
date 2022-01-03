@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.text-wrapper {
+  white-space:nowrap;
+  display:inline-block;
+}
+
+.text-container {
+  overflow: hidden;
+}
+
+.text {
+  animation: marquee 10s linear infinite;
+}
+
+.clone {
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+ }
+
+/* @keyframes marquee2 {
+  0%   { transform: translate(0%, 0); }
+  100% { transform: translate(-100%, 0); }
+ } */
